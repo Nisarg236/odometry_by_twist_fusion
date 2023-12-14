@@ -1,0 +1,100 @@
+[0.016s] Invoking command in '/home/nisarg/dev_ws/src/fusion_node/build/fusion_node': CMAKE_PREFIX_PATH=/home/nisarg/dev_ws/install/turtlesim:/home/nisarg/dev_ws/install/my_package:/home/nisarg/dev_ws/install/fusion_node:/home/nisarg/dev_ws/install/cpp_pubsub:/opt/ros/dashing:/opt/ros/melodic /usr/bin/cmake /home/nisarg/dev_ws/src/fusion_node -DCMAKE_INSTALL_PREFIX=/home/nisarg/dev_ws/src/fusion_node/install/fusion_node
+[1.040s] -- The C compiler identification is GNU 7.5.0
+[1.207s] -- The CXX compiler identification is GNU 7.5.0
+[1.249s] -- Check for working C compiler: /usr/bin/cc
+[1.358s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.359s] -- Detecting C compiler ABI info
+[1.452s] -- Detecting C compiler ABI info - done
+[1.458s] -- Detecting C compile features
+[1.789s] -- Detecting C compile features - done
+[1.815s] -- Check for working CXX compiler: /usr/bin/c++
+[1.925s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.926s] -- Detecting CXX compiler ABI info
+[2.053s] -- Detecting CXX compiler ABI info - done
+[2.058s] -- Detecting CXX compile features
+[2.514s] -- Detecting CXX compile features - done
+[2.563s] -- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)
+[2.647s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[2.647s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.158s] -- Found rclcpp: 0.7.16 (/opt/ros/dashing/share/rclcpp/cmake)
+[3.274s] -- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[3.409s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[3.434s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.468s] -- Looking for pthread.h
+[3.570s] -- Looking for pthread.h - found
+[3.591s] -- Looking for pthread_create
+[3.691s] -- Looking for pthread_create - not found
+[3.691s] -- Looking for pthread_create in pthreads
+[3.768s] -- Looking for pthread_create in pthreads - not found
+[3.768s] -- Looking for pthread_create in pthread
+[3.865s] -- Looking for pthread_create in pthread - found
+[3.866s] -- Found Threads: TRUE  
+[4.043s] -- Found geometry_msgs: 0.7.1 (/opt/ros/dashing/share/geometry_msgs/cmake)
+[4.098s] -- Found nav_msgs: 0.7.1 (/opt/ros/dashing/share/nav_msgs/cmake)
+[4.170s] -- Found ament_lint_auto: 0.7.12 (/opt/ros/dashing/share/ament_lint_auto/cmake)
+[4.434s] -- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code
+[4.440s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.440s] -- Configured cppcheck include dirs: 
+[4.446s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.449s] -- Added test 'lint_cmake' to check CMake code style
+[4.455s] -- Added test 'uncrustify' to check C / C++ code style
+[4.457s] -- Added test 'xmllint' to check XML markup files
+[4.461s] -- Configuring done
+[4.477s] -- Generating done
+[4.479s] -- Build files have been written to: /home/nisarg/dev_ws/src/fusion_node/build/fusion_node
+[4.484s] Invoked command in '/home/nisarg/dev_ws/src/fusion_node/build/fusion_node' returned '0': CMAKE_PREFIX_PATH=/home/nisarg/dev_ws/install/turtlesim:/home/nisarg/dev_ws/install/my_package:/home/nisarg/dev_ws/install/fusion_node:/home/nisarg/dev_ws/install/cpp_pubsub:/opt/ros/dashing:/opt/ros/melodic /usr/bin/cmake /home/nisarg/dev_ws/src/fusion_node -DCMAKE_INSTALL_PREFIX=/home/nisarg/dev_ws/src/fusion_node/install/fusion_node
+[4.488s] Invoking command in '/home/nisarg/dev_ws/src/fusion_node/build/fusion_node': CMAKE_PREFIX_PATH=/home/nisarg/dev_ws/install/turtlesim:/home/nisarg/dev_ws/install/my_package:/home/nisarg/dev_ws/install/fusion_node:/home/nisarg/dev_ws/install/cpp_pubsub:/opt/ros/dashing:/opt/ros/melodic /usr/bin/cmake --build /home/nisarg/dev_ws/src/fusion_node/build/fusion_node -- -j4 -l4
+[4.542s] [35m[1mScanning dependencies of target fusion_node[0m
+[4.582s] [ 50%] [32mBuilding CXX object CMakeFiles/fusion_node.dir/src/fusion_node.cpp.o[0m
+[5.798s] [01m[K/home/nisarg/dev_ws/src/fusion_node/src/fusion_node.cpp:[m[K In member function ‘[01m[Kvoid FusionNode::fuseAndPublish()[m[K’:
+[5.799s] [01m[K/home/nisarg/dev_ws/src/fusion_node/src/fusion_node.cpp:117:62:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid rclcpp::Publisher<MessageT, Alloc>::publish(const std::shared_ptr<const _Tp>&) [with MessageT = geometry_msgs::msg::TwistStamped_<std::allocator<void> >; Alloc = std::allocator<void>][m[K’ is deprecated: publishing an unique_ptr is prefered when using intra process communication. If using a shared_ptr, use publish(*msg). [[01;35m[K-Wdeprecated-declarations[m[K]
+[5.799s]          fused_velocity_publisher_->publish(fused_velocity_msg[01;35m[K)[m[K;
+[5.799s]                                                               [01;35m[K^[m[K
+[5.799s] In file included from [01m[K/opt/ros/dashing/include/rclcpp/callback_group.hpp:24:0[m[K,
+[5.800s]                  from [01m[K/opt/ros/dashing/include/rclcpp/any_executable.hpp:20[m[K,
+[5.800s]                  from [01m[K/opt/ros/dashing/include/rclcpp/memory_strategy.hpp:24[m[K,
+[5.800s]                  from [01m[K/opt/ros/dashing/include/rclcpp/memory_strategies.hpp:18[m[K,
+[5.800s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executor.hpp:33[m[K,
+[5.800s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors/multi_threaded_executor.hpp:24[m[K,
+[5.800s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:21[m[K,
+[5.801s]                  from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+[5.801s]                  from [01m[K/home/nisarg/dev_ws/src/fusion_node/src/fusion_node.cpp:1[m[K:
+[5.801s] [01m[K/opt/ros/dashing/include/rclcpp/publisher.hpp:137:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.801s]    [01;36m[Kpublish[m[K(const std::shared_ptr<const MessageT> & msg)
+[5.801s]    [01;36m[K^~~~~~~[m[K
+[5.822s] [01m[K/home/nisarg/dev_ws/src/fusion_node/src/fusion_node.cpp:159:50:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid rclcpp::Publisher<MessageT, Alloc>::publish(const std::shared_ptr<const _Tp>&) [with MessageT = nav_msgs::msg::Odometry_<std::allocator<void> >; Alloc = std::allocator<void>][m[K’ is deprecated: publishing an unique_ptr is prefered when using intra process communication. If using a shared_ptr, use publish(*msg). [[01;35m[K-Wdeprecated-declarations[m[K]
+[5.822s]          odometry_publisher_->publish(odometry_msg[01;35m[K)[m[K;
+[5.823s]                                                   [01;35m[K^[m[K
+[5.823s] In file included from [01m[K/opt/ros/dashing/include/rclcpp/callback_group.hpp:24:0[m[K,
+[5.823s]                  from [01m[K/opt/ros/dashing/include/rclcpp/any_executable.hpp:20[m[K,
+[5.823s]                  from [01m[K/opt/ros/dashing/include/rclcpp/memory_strategy.hpp:24[m[K,
+[5.823s]                  from [01m[K/opt/ros/dashing/include/rclcpp/memory_strategies.hpp:18[m[K,
+[5.823s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executor.hpp:33[m[K,
+[5.824s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors/multi_threaded_executor.hpp:24[m[K,
+[5.824s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:21[m[K,
+[5.824s]                  from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+[5.824s]                  from [01m[K/home/nisarg/dev_ws/src/fusion_node/src/fusion_node.cpp:1[m[K:
+[5.824s] [01m[K/opt/ros/dashing/include/rclcpp/publisher.hpp:137:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.825s]    [01;36m[Kpublish[m[K(const std::shared_ptr<const MessageT> & msg)
+[5.825s]    [01;36m[K^~~~~~~[m[K
+[8.228s] [100%] [32m[1mLinking CXX executable fusion_node[0m
+[8.489s] [100%] Built target fusion_node
+[8.505s] Invoked command in '/home/nisarg/dev_ws/src/fusion_node/build/fusion_node' returned '0': CMAKE_PREFIX_PATH=/home/nisarg/dev_ws/install/turtlesim:/home/nisarg/dev_ws/install/my_package:/home/nisarg/dev_ws/install/fusion_node:/home/nisarg/dev_ws/install/cpp_pubsub:/opt/ros/dashing:/opt/ros/melodic /usr/bin/cmake --build /home/nisarg/dev_ws/src/fusion_node/build/fusion_node -- -j4 -l4
+[8.557s] Invoking command in '/home/nisarg/dev_ws/src/fusion_node/build/fusion_node': CMAKE_PREFIX_PATH=/home/nisarg/dev_ws/install/turtlesim:/home/nisarg/dev_ws/install/my_package:/home/nisarg/dev_ws/install/fusion_node:/home/nisarg/dev_ws/install/cpp_pubsub:/opt/ros/dashing:/opt/ros/melodic /usr/bin/cmake --build /home/nisarg/dev_ws/src/fusion_node/build/fusion_node --target install -- -j4 -l4
+[8.630s] [100%] Built target fusion_node
+[8.654s] [36mInstall the project...[0m
+[8.668s] -- Install configuration: ""
+[8.669s] -- Installing: /home/nisarg/dev_ws/src/fusion_node/install/fusion_node/lib/fusion_node/fusion_node
+[8.671s] -- Set runtime path of "/home/nisarg/dev_ws/src/fusion_node/install/fusion_node/lib/fusion_node/fusion_node" to ""
+[8.671s] -- Installing: /home/nisarg/dev_ws/src/fusion_node/install/fusion_node/share/ament_index/resource_index/package_run_dependencies/fusion_node
+[8.672s] -- Installing: /home/nisarg/dev_ws/src/fusion_node/install/fusion_node/share/ament_index/resource_index/parent_prefix_path/fusion_node
+[8.672s] -- Installing: /home/nisarg/dev_ws/src/fusion_node/install/fusion_node/share/fusion_node/environment/ament_prefix_path.sh
+[8.672s] -- Installing: /home/nisarg/dev_ws/src/fusion_node/install/fusion_node/share/fusion_node/environment/path.sh
+[8.672s] -- Installing: /home/nisarg/dev_ws/src/fusion_node/install/fusion_node/share/fusion_node/local_setup.bash
+[8.672s] -- Installing: /home/nisarg/dev_ws/src/fusion_node/install/fusion_node/share/fusion_node/local_setup.sh
+[8.673s] -- Installing: /home/nisarg/dev_ws/src/fusion_node/install/fusion_node/share/fusion_node/local_setup.zsh
+[8.673s] -- Installing: /home/nisarg/dev_ws/src/fusion_node/install/fusion_node/share/ament_index/resource_index/packages/fusion_node
+[8.673s] -- Installing: /home/nisarg/dev_ws/src/fusion_node/install/fusion_node/share/fusion_node/cmake/fusion_nodeConfig.cmake
+[8.673s] -- Installing: /home/nisarg/dev_ws/src/fusion_node/install/fusion_node/share/fusion_node/cmake/fusion_nodeConfig-version.cmake
+[8.673s] -- Installing: /home/nisarg/dev_ws/src/fusion_node/install/fusion_node/share/fusion_node/package.xml
+[8.678s] Invoked command in '/home/nisarg/dev_ws/src/fusion_node/build/fusion_node' returned '0': CMAKE_PREFIX_PATH=/home/nisarg/dev_ws/install/turtlesim:/home/nisarg/dev_ws/install/my_package:/home/nisarg/dev_ws/install/fusion_node:/home/nisarg/dev_ws/install/cpp_pubsub:/opt/ros/dashing:/opt/ros/melodic /usr/bin/cmake --build /home/nisarg/dev_ws/src/fusion_node/build/fusion_node --target install -- -j4 -l4

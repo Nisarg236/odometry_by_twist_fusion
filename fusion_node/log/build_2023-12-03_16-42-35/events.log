@@ -1,0 +1,195 @@
+[0.000000] (-) TimerEvent: {}
+[0.000514] (fusion_node) JobQueued: {'identifier': 'fusion_node', 'dependencies': OrderedDict()}
+[0.000572] (fusion_node) JobStarted: {'identifier': 'fusion_node'}
+[0.013416] (fusion_node) JobProgress: {'identifier': 'fusion_node', 'progress': 'cmake'}
+[0.014358] (fusion_node) Command: {'cmd': ['/usr/bin/cmake', '/home/nisarg/dev_ws/src/fusion_node', '-DCMAKE_INSTALL_PREFIX=/home/nisarg/dev_ws/src/fusion_node/install/fusion_node'], 'cwd': '/home/nisarg/dev_ws/src/fusion_node/build/fusion_node', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nisarg'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1651'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_PACKAGE_PATH', '/opt/ros/melodic/share'), ('LD_LIBRARY_PATH', '/home/nisarg/dev_ws/install/turtlesim/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib:/opt/ros/melodic/lib'), ('ROS_ETC_DIR', '/opt/ros/melodic/etc/ros'), ('SHLVL', '1'), ('OLDPWD', '/home/nisarg/dev_ws/src/fusion_node/include'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/nisarg'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/nisarg/ros2_install'), ('COLCON_PREFIX_PATH', '/home/nisarg/dev_ws/install'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'nisarg'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/melodic/lib/pkgconfig'), ('USERNAME', 'nisarg'), ('XDG_SESSION_ID', '2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/dashing/bin:/opt/ros/melodic/bin:/home/nisarg/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Nisarg:@/tmp/.ICE-unix/1556,unix/Nisarg:/tmp/.ICE-unix/1556'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/46b4f5f8_6bb3_4a72_909b_12b850f82dee'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('ROS_ROOT', '/opt/ros/melodic/share/ros'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.734'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/nisarg/dev_ws/install/turtlesim:/home/nisarg/dev_ws/install/my_package:/home/nisarg/dev_ws/install/fusion_node:/home/nisarg/dev_ws/install/cpp_pubsub:/opt/ros/dashing'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '70'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/nisarg/dev_ws/src/fusion_node/build/fusion_node'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('PYTHONPATH', '/home/nisarg/dev_ws/install/turtlesim/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages:/opt/ros/melodic/lib/python2.7/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/nisarg/dev_ws/install/turtlesim:/home/nisarg/dev_ws/install/my_package:/home/nisarg/dev_ws/install/fusion_node:/home/nisarg/dev_ws/install/cpp_pubsub:/opt/ros/dashing:/opt/ros/melodic')]), 'shell': False}
+[0.098696] (-) TimerEvent: {}
+[0.199474] (-) TimerEvent: {}
+[0.299996] (-) TimerEvent: {}
+[0.400643] (-) TimerEvent: {}
+[0.501287] (-) TimerEvent: {}
+[0.602102] (-) TimerEvent: {}
+[0.702852] (-) TimerEvent: {}
+[0.803618] (-) TimerEvent: {}
+[0.904363] (-) TimerEvent: {}
+[1.005051] (-) TimerEvent: {}
+[1.040104] (fusion_node) StdoutLine: {'line': b'-- The C compiler identification is GNU 7.5.0\n'}
+[1.105220] (-) TimerEvent: {}
+[1.205783] (-) TimerEvent: {}
+[1.207642] (fusion_node) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 7.5.0\n'}
+[1.249462] (fusion_node) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.305859] (-) TimerEvent: {}
+[1.358049] (fusion_node) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.359562] (fusion_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.405967] (-) TimerEvent: {}
+[1.452303] (fusion_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.458318] (fusion_node) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.506084] (-) TimerEvent: {}
+[1.606441] (-) TimerEvent: {}
+[1.706810] (-) TimerEvent: {}
+[1.789569] (fusion_node) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.806972] (-) TimerEvent: {}
+[1.815452] (fusion_node) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.907092] (-) TimerEvent: {}
+[1.925426] (fusion_node) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.926205] (fusion_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.007223] (-) TimerEvent: {}
+[2.053238] (fusion_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.058876] (fusion_node) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.107355] (-) TimerEvent: {}
+[2.207696] (-) TimerEvent: {}
+[2.308053] (-) TimerEvent: {}
+[2.408469] (-) TimerEvent: {}
+[2.508912] (-) TimerEvent: {}
+[2.513987] (fusion_node) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.563458] (fusion_node) StdoutLine: {'line': b'-- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)\n'}
+[2.609084] (-) TimerEvent: {}
+[2.647475] (fusion_node) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") \n'}
+[2.647789] (fusion_node) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.709218] (-) TimerEvent: {}
+[2.809642] (-) TimerEvent: {}
+[2.909977] (-) TimerEvent: {}
+[3.010308] (-) TimerEvent: {}
+[3.110717] (-) TimerEvent: {}
+[3.157935] (fusion_node) StdoutLine: {'line': b'-- Found rclcpp: 0.7.16 (/opt/ros/dashing/share/rclcpp/cmake)\n'}
+[3.210904] (-) TimerEvent: {}
+[3.274765] (fusion_node) StdoutLine: {'line': b'-- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)\n'}
+[3.311066] (-) TimerEvent: {}
+[3.409843] (fusion_node) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)\n'}
+[3.411170] (-) TimerEvent: {}
+[3.434660] (fusion_node) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.467804] (fusion_node) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.511321] (-) TimerEvent: {}
+[3.570745] (fusion_node) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.591261] (fusion_node) StdoutLine: {'line': b'-- Looking for pthread_create\n'}
+[3.611450] (-) TimerEvent: {}
+[3.691240] (fusion_node) StdoutLine: {'line': b'-- Looking for pthread_create - not found\n'}
+[3.691532] (fusion_node) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[3.711563] (-) TimerEvent: {}
+[3.768159] (fusion_node) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[3.768550] (fusion_node) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[3.811700] (-) TimerEvent: {}
+[3.865419] (fusion_node) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[3.866697] (fusion_node) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.911849] (-) TimerEvent: {}
+[4.012301] (-) TimerEvent: {}
+[4.043337] (fusion_node) StdoutLine: {'line': b'-- Found geometry_msgs: 0.7.1 (/opt/ros/dashing/share/geometry_msgs/cmake)\n'}
+[4.098752] (fusion_node) StdoutLine: {'line': b'-- Found nav_msgs: 0.7.1 (/opt/ros/dashing/share/nav_msgs/cmake)\n'}
+[4.112421] (-) TimerEvent: {}
+[4.170500] (fusion_node) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.7.12 (/opt/ros/dashing/share/ament_lint_auto/cmake)\n'}
+[4.212558] (-) TimerEvent: {}
+[4.312930] (-) TimerEvent: {}
+[4.413310] (-) TimerEvent: {}
+[4.434556] (fusion_node) StdoutLine: {'line': b"-- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code\n"}
+[4.440511] (fusion_node) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.440930] (fusion_node) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[4.445991] (fusion_node) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[4.449063] (fusion_node) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.455044] (fusion_node) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.456879] (fusion_node) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.460990] (fusion_node) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.477521] (fusion_node) StdoutLine: {'line': b'-- Generating done\n'}
+[4.479159] (fusion_node) StdoutLine: {'line': b'-- Build files have been written to: /home/nisarg/dev_ws/src/fusion_node/build/fusion_node\n'}
+[4.484221] (fusion_node) CommandEnded: {'returncode': 0}
+[4.485438] (fusion_node) JobProgress: {'identifier': 'fusion_node', 'progress': 'build'}
+[4.486510] (fusion_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nisarg/dev_ws/src/fusion_node/build/fusion_node', '--', '-j4', '-l4'], 'cwd': '/home/nisarg/dev_ws/src/fusion_node/build/fusion_node', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nisarg'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1651'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_PACKAGE_PATH', '/opt/ros/melodic/share'), ('LD_LIBRARY_PATH', '/home/nisarg/dev_ws/install/turtlesim/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib:/opt/ros/melodic/lib'), ('ROS_ETC_DIR', '/opt/ros/melodic/etc/ros'), ('SHLVL', '1'), ('OLDPWD', '/home/nisarg/dev_ws/src/fusion_node/include'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/nisarg'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/nisarg/ros2_install'), ('COLCON_PREFIX_PATH', '/home/nisarg/dev_ws/install'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'nisarg'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/melodic/lib/pkgconfig'), ('USERNAME', 'nisarg'), ('XDG_SESSION_ID', '2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/dashing/bin:/opt/ros/melodic/bin:/home/nisarg/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Nisarg:@/tmp/.ICE-unix/1556,unix/Nisarg:/tmp/.ICE-unix/1556'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/46b4f5f8_6bb3_4a72_909b_12b850f82dee'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('ROS_ROOT', '/opt/ros/melodic/share/ros'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.734'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/nisarg/dev_ws/install/turtlesim:/home/nisarg/dev_ws/install/my_package:/home/nisarg/dev_ws/install/fusion_node:/home/nisarg/dev_ws/install/cpp_pubsub:/opt/ros/dashing'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '70'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/nisarg/dev_ws/src/fusion_node/build/fusion_node'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('PYTHONPATH', '/home/nisarg/dev_ws/install/turtlesim/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages:/opt/ros/melodic/lib/python2.7/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/nisarg/dev_ws/install/turtlesim:/home/nisarg/dev_ws/install/my_package:/home/nisarg/dev_ws/install/fusion_node:/home/nisarg/dev_ws/install/cpp_pubsub:/opt/ros/dashing:/opt/ros/melodic')]), 'shell': False}
+[4.513473] (-) TimerEvent: {}
+[4.542173] (fusion_node) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target fusion_node\x1b[0m\n'}
+[4.582389] (fusion_node) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/fusion_node.dir/src/fusion_node.cpp.o\x1b[0m\n'}
+[4.613588] (-) TimerEvent: {}
+[4.714049] (-) TimerEvent: {}
+[4.814492] (-) TimerEvent: {}
+[4.915081] (-) TimerEvent: {}
+[5.015621] (-) TimerEvent: {}
+[5.116059] (-) TimerEvent: {}
+[5.216521] (-) TimerEvent: {}
+[5.316968] (-) TimerEvent: {}
+[5.417422] (-) TimerEvent: {}
+[5.517864] (-) TimerEvent: {}
+[5.618308] (-) TimerEvent: {}
+[5.718749] (-) TimerEvent: {}
+[5.798745] (fusion_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nisarg/dev_ws/src/fusion_node/src/fusion_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid FusionNode::fuseAndPublish()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.799140] (fusion_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nisarg/dev_ws/src/fusion_node/src/fusion_node.cpp:117:62:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::Publisher<MessageT, Alloc>::publish(const std::shared_ptr<const _Tp>&) [with MessageT = geometry_msgs::msg::TwistStamped_<std::allocator<void> >; Alloc = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99 is deprecated: publishing an unique_ptr is prefered when using intra process communication. If using a shared_ptr, use publish(*msg). [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[5.799384] (fusion_node) StderrLine: {'line': b'         fused_velocity_publisher_->publish(fused_velocity_msg\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[5.799599] (fusion_node) StderrLine: {'line': b'                                                              \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[5.799804] (fusion_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/callback_group.hpp:24:0\x1b[m\x1b[K,\n'}
+[5.800006] (fusion_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[5.800201] (fusion_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[5.800364] (fusion_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[5.800520] (fusion_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[5.800684] (fusion_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/executors/multi_threaded_executor.hpp:24\x1b[m\x1b[K,\n'}
+[5.800859] (fusion_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[5.801041] (fusion_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144\x1b[m\x1b[K,\n'}
+[5.801221] (fusion_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nisarg/dev_ws/src/fusion_node/src/fusion_node.cpp:1\x1b[m\x1b[K:\n'}
+[5.801399] (fusion_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/publisher.hpp:137:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[5.801582] (fusion_node) StderrLine: {'line': b'   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(const std::shared_ptr<const MessageT> & msg)\n'}
+[5.801831] (fusion_node) StderrLine: {'line': b'   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[5.818870] (-) TimerEvent: {}
+[5.822243] (fusion_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nisarg/dev_ws/src/fusion_node/src/fusion_node.cpp:159:50:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::Publisher<MessageT, Alloc>::publish(const std::shared_ptr<const _Tp>&) [with MessageT = nav_msgs::msg::Odometry_<std::allocator<void> >; Alloc = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99 is deprecated: publishing an unique_ptr is prefered when using intra process communication. If using a shared_ptr, use publish(*msg). [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[5.822732] (fusion_node) StderrLine: {'line': b'         odometry_publisher_->publish(odometry_msg\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[5.822966] (fusion_node) StderrLine: {'line': b'                                                  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[5.823181] (fusion_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/callback_group.hpp:24:0\x1b[m\x1b[K,\n'}
+[5.823384] (fusion_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[5.823581] (fusion_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[5.823757] (fusion_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[5.823909] (fusion_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[5.824076] (fusion_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/executors/multi_threaded_executor.hpp:24\x1b[m\x1b[K,\n'}
+[5.824244] (fusion_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[5.824430] (fusion_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144\x1b[m\x1b[K,\n'}
+[5.824614] (fusion_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nisarg/dev_ws/src/fusion_node/src/fusion_node.cpp:1\x1b[m\x1b[K:\n'}
+[5.824794] (fusion_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/publisher.hpp:137:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[5.824974] (fusion_node) StderrLine: {'line': b'   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(const std::shared_ptr<const MessageT> & msg)\n'}
+[5.825157] (fusion_node) StderrLine: {'line': b'   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[5.918997] (-) TimerEvent: {}
+[6.019445] (-) TimerEvent: {}
+[6.119890] (-) TimerEvent: {}
+[6.220335] (-) TimerEvent: {}
+[6.320759] (-) TimerEvent: {}
+[6.421190] (-) TimerEvent: {}
+[6.521641] (-) TimerEvent: {}
+[6.622130] (-) TimerEvent: {}
+[6.722573] (-) TimerEvent: {}
+[6.823010] (-) TimerEvent: {}
+[6.923413] (-) TimerEvent: {}
+[7.023848] (-) TimerEvent: {}
+[7.124274] (-) TimerEvent: {}
+[7.224706] (-) TimerEvent: {}
+[7.325147] (-) TimerEvent: {}
+[7.425582] (-) TimerEvent: {}
+[7.526045] (-) TimerEvent: {}
+[7.626473] (-) TimerEvent: {}
+[7.726876] (-) TimerEvent: {}
+[7.827308] (-) TimerEvent: {}
+[7.927736] (-) TimerEvent: {}
+[8.028159] (-) TimerEvent: {}
+[8.128569] (-) TimerEvent: {}
+[8.228001] (fusion_node) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable fusion_node\x1b[0m\n'}
+[8.228668] (-) TimerEvent: {}
+[8.329016] (-) TimerEvent: {}
+[8.429519] (-) TimerEvent: {}
+[8.489321] (fusion_node) StdoutLine: {'line': b'[100%] Built target fusion_node\n'}
+[8.504767] (fusion_node) CommandEnded: {'returncode': 0}
+[8.529690] (-) TimerEvent: {}
+[8.537255] (fusion_node) JobProgress: {'identifier': 'fusion_node', 'progress': 'install'}
+[8.554726] (fusion_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nisarg/dev_ws/src/fusion_node/build/fusion_node', '--target', 'install', '--', '-j4', '-l4'], 'cwd': '/home/nisarg/dev_ws/src/fusion_node/build/fusion_node', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nisarg'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1651'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_PACKAGE_PATH', '/opt/ros/melodic/share'), ('LD_LIBRARY_PATH', '/home/nisarg/dev_ws/install/turtlesim/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib:/opt/ros/melodic/lib'), ('ROS_ETC_DIR', '/opt/ros/melodic/etc/ros'), ('SHLVL', '1'), ('OLDPWD', '/home/nisarg/dev_ws/src/fusion_node/include'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/nisarg'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/nisarg/ros2_install'), ('COLCON_PREFIX_PATH', '/home/nisarg/dev_ws/install'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'nisarg'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/melodic/lib/pkgconfig'), ('USERNAME', 'nisarg'), ('XDG_SESSION_ID', '2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/dashing/bin:/opt/ros/melodic/bin:/home/nisarg/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Nisarg:@/tmp/.ICE-unix/1556,unix/Nisarg:/tmp/.ICE-unix/1556'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/46b4f5f8_6bb3_4a72_909b_12b850f82dee'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('ROS_ROOT', '/opt/ros/melodic/share/ros'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.734'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/nisarg/dev_ws/install/turtlesim:/home/nisarg/dev_ws/install/my_package:/home/nisarg/dev_ws/install/fusion_node:/home/nisarg/dev_ws/install/cpp_pubsub:/opt/ros/dashing'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '70'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/nisarg/dev_ws/src/fusion_node/build/fusion_node'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('PYTHONPATH', '/home/nisarg/dev_ws/install/turtlesim/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages:/opt/ros/melodic/lib/python2.7/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/nisarg/dev_ws/install/turtlesim:/home/nisarg/dev_ws/install/my_package:/home/nisarg/dev_ws/install/fusion_node:/home/nisarg/dev_ws/install/cpp_pubsub:/opt/ros/dashing:/opt/ros/melodic')]), 'shell': False}
+[8.629836] (fusion_node) StdoutLine: {'line': b'[100%] Built target fusion_node\n'}
+[8.630205] (-) TimerEvent: {}
+[8.654091] (fusion_node) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[8.668567] (fusion_node) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.669345] (fusion_node) StdoutLine: {'line': b'-- Installing: /home/nisarg/dev_ws/src/fusion_node/install/fusion_node/lib/fusion_node/fusion_node\n'}
+[8.671407] (fusion_node) StdoutLine: {'line': b'-- Set runtime path of "/home/nisarg/dev_ws/src/fusion_node/install/fusion_node/lib/fusion_node/fusion_node" to ""\n'}
+[8.671776] (fusion_node) StdoutLine: {'line': b'-- Installing: /home/nisarg/dev_ws/src/fusion_node/install/fusion_node/share/ament_index/resource_index/package_run_dependencies/fusion_node\n'}
+[8.672045] (fusion_node) StdoutLine: {'line': b'-- Installing: /home/nisarg/dev_ws/src/fusion_node/install/fusion_node/share/ament_index/resource_index/parent_prefix_path/fusion_node\n'}
+[8.672280] (fusion_node) StdoutLine: {'line': b'-- Installing: /home/nisarg/dev_ws/src/fusion_node/install/fusion_node/share/fusion_node/environment/ament_prefix_path.sh\n'}
+[8.672504] (fusion_node) StdoutLine: {'line': b'-- Installing: /home/nisarg/dev_ws/src/fusion_node/install/fusion_node/share/fusion_node/environment/path.sh\n'}
+[8.672717] (fusion_node) StdoutLine: {'line': b'-- Installing: /home/nisarg/dev_ws/src/fusion_node/install/fusion_node/share/fusion_node/local_setup.bash\n'}
+[8.672924] (fusion_node) StdoutLine: {'line': b'-- Installing: /home/nisarg/dev_ws/src/fusion_node/install/fusion_node/share/fusion_node/local_setup.sh\n'}
+[8.673128] (fusion_node) StdoutLine: {'line': b'-- Installing: /home/nisarg/dev_ws/src/fusion_node/install/fusion_node/share/fusion_node/local_setup.zsh\n'}
+[8.673325] (fusion_node) StdoutLine: {'line': b'-- Installing: /home/nisarg/dev_ws/src/fusion_node/install/fusion_node/share/ament_index/resource_index/packages/fusion_node\n'}
+[8.673540] (fusion_node) StdoutLine: {'line': b'-- Installing: /home/nisarg/dev_ws/src/fusion_node/install/fusion_node/share/fusion_node/cmake/fusion_nodeConfig.cmake\n'}
+[8.673740] (fusion_node) StdoutLine: {'line': b'-- Installing: /home/nisarg/dev_ws/src/fusion_node/install/fusion_node/share/fusion_node/cmake/fusion_nodeConfig-version.cmake\n'}
+[8.673979] (fusion_node) StdoutLine: {'line': b'-- Installing: /home/nisarg/dev_ws/src/fusion_node/install/fusion_node/share/fusion_node/package.xml\n'}
+[8.677636] (fusion_node) CommandEnded: {'returncode': 0}
+[8.730366] (-) TimerEvent: {}
+[8.739533] (fusion_node) JobEnded: {'identifier': 'fusion_node', 'rc': 0}
+[8.741419] (-) EventReactorShutdown: {}

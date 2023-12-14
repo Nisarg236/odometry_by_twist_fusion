@@ -1,0 +1,31 @@
+[01m[K/home/nisarg/dev_ws/src/fusion_node/src/fusion_node.cpp:[m[K In member function ‘[01m[Kvoid FusionNode::fuseAndPublish()[m[K’:
+[01m[K/home/nisarg/dev_ws/src/fusion_node/src/fusion_node.cpp:117:62:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid rclcpp::Publisher<MessageT, Alloc>::publish(const std::shared_ptr<const _Tp>&) [with MessageT = geometry_msgs::msg::TwistStamped_<std::allocator<void> >; Alloc = std::allocator<void>][m[K’ is deprecated: publishing an unique_ptr is prefered when using intra process communication. If using a shared_ptr, use publish(*msg). [[01;35m[K-Wdeprecated-declarations[m[K]
+         fused_velocity_publisher_->publish(fused_velocity_msg[01;35m[K)[m[K;
+                                                              [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/dashing/include/rclcpp/callback_group.hpp:24:0[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors/multi_threaded_executor.hpp:24[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/nisarg/dev_ws/src/fusion_node/src/fusion_node.cpp:1[m[K:
+[01m[K/opt/ros/dashing/include/rclcpp/publisher.hpp:137:3:[m[K [01;36m[Knote: [m[Kdeclared here
+   [01;36m[Kpublish[m[K(const std::shared_ptr<const MessageT> & msg)
+   [01;36m[K^~~~~~~[m[K
+[01m[K/home/nisarg/dev_ws/src/fusion_node/src/fusion_node.cpp:159:50:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid rclcpp::Publisher<MessageT, Alloc>::publish(const std::shared_ptr<const _Tp>&) [with MessageT = nav_msgs::msg::Odometry_<std::allocator<void> >; Alloc = std::allocator<void>][m[K’ is deprecated: publishing an unique_ptr is prefered when using intra process communication. If using a shared_ptr, use publish(*msg). [[01;35m[K-Wdeprecated-declarations[m[K]
+         odometry_publisher_->publish(odometry_msg[01;35m[K)[m[K;
+                                                  [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/dashing/include/rclcpp/callback_group.hpp:24:0[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors/multi_threaded_executor.hpp:24[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/nisarg/dev_ws/src/fusion_node/src/fusion_node.cpp:1[m[K:
+[01m[K/opt/ros/dashing/include/rclcpp/publisher.hpp:137:3:[m[K [01;36m[Knote: [m[Kdeclared here
+   [01;36m[Kpublish[m[K(const std::shared_ptr<const MessageT> & msg)
+   [01;36m[K^~~~~~~[m[K

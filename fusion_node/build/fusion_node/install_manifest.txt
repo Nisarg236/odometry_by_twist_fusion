@@ -1,0 +1,12 @@
+/home/nisarg/dev_ws/src/fusion_node/install/fusion_node/lib/fusion_node/fusion_node
+/home/nisarg/dev_ws/src/fusion_node/install/fusion_node/share/ament_index/resource_index/package_run_dependencies/fusion_node
+/home/nisarg/dev_ws/src/fusion_node/install/fusion_node/share/ament_index/resource_index/parent_prefix_path/fusion_node
+/home/nisarg/dev_ws/src/fusion_node/install/fusion_node/share/fusion_node/environment/ament_prefix_path.sh
+/home/nisarg/dev_ws/src/fusion_node/install/fusion_node/share/fusion_node/environment/path.sh
+/home/nisarg/dev_ws/src/fusion_node/install/fusion_node/share/fusion_node/local_setup.bash
+/home/nisarg/dev_ws/src/fusion_node/install/fusion_node/share/fusion_node/local_setup.sh
+/home/nisarg/dev_ws/src/fusion_node/install/fusion_node/share/fusion_node/local_setup.zsh
+/home/nisarg/dev_ws/src/fusion_node/install/fusion_node/share/ament_index/resource_index/packages/fusion_node
+/home/nisarg/dev_ws/src/fusion_node/install/fusion_node/share/fusion_node/cmake/fusion_nodeConfig.cmake
+/home/nisarg/dev_ws/src/fusion_node/install/fusion_node/share/fusion_node/cmake/fusion_nodeConfig-version.cmake
+/home/nisarg/dev_ws/src/fusion_node/install/fusion_node/share/fusion_node/package.xml
