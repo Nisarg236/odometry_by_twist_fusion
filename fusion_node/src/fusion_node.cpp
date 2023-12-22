@@ -27,27 +27,6 @@ public:
         // estimate of u_hat
         return u_hat;
     }
-    float filter(float u1, float u2)
-        {
-            // Kalman filter algorithm for fusing two measurements
-    
-            // Calculate weights based on measurement variances
-            float weight1 = 1 / (h * p * h + r);   // weight for u1
-            float weight2 = 1 / (h * p * h + r);   // weight for u2
-    
-            // Combine measurements using weights
-            float combinedMeasurement = (weight1 * u1 + weight2 * u2) / (weight1 + weight2);
-    
-            // Kalman gain for the combined measurement
-            float k_combined = p * h / (h * p * h + r);
-    
-            // Update estimated state and error covariance for the combined measurement
-            u_hat = u_hat + k_combined * (combinedMeasurement - h * u_hat);
-            p = (1 - k_combined * h) * p + q;
-    
-            // Return the fused estimate
-            return u_hat;
-        }
 };
 
 class FusionNode : public rclcpp::Node
